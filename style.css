@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    height: 80vh;
+    gap: 0.1em;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.car1{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.car2{
+    background-color: rgb(65, 142, 145);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.car3{
+    background-color: rgb(14, 51, 30);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.learn .btn{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
